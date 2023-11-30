@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Teko', sans-serif;
+    color: #ffffff;
+}
+
+.app {
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-between;
+}
+
+#name {
+    position: fixed;
+    top: 25pt;
+    left: 25pt;
+
+    font-size: 32pt;
+    line-height: 30pt;
+    font-style: oblique 15deg;
+}
+
+.left {
+    width: 250pt;
+    height: 150pt;
+    margin: 20pt;
+}
+
+#score {
+    font-size: 64pt;
+    font-weight: bold;
+    line-height: 60pt;
+    font-style: oblique 15deg;
+}
+
+#combo {
+    font-size: 32pt;
+    line-height: 30pt;
+    width: 125pt;
+    font-style: oblique 15deg;
+}
+
+#combo.fc {
+    border-top: 2pt solid #ffffff;
+    border-bottom: 2pt solid #ffffff;
+}
+
+.energy {
+    margin-top: 10pt;
+    height: 20pt;
+    width: 100%;
+    background-color: #808080;
+    border-radius: 4pt;
+    overflow: hidden;
+    transform: skewX(-15deg);
+}
+
+.energy #bar {
+    height: 20pt;
+    background-color: #ffffff;
+}
+
+#fail-indicator {
+    margin-top: 10pt;
+    font-size: 50pt;
+    line-height: 20pt;
+    color: #e74c3c;
+    width: 100%;
+}
+
+.right {
+    width: 150pt;
+    height: 130pt;
+    margin: 30pt;
+}
+
+.right #rank {
+    font-size: 144pt;
+    line-height: 100pt;
+    font-weight: bold;
+    font-style: oblique 15deg;
+    text-align: right;
+    color: #dd0000;
+}
+
+.right #rank.r-SS {
+    color: #00ffff;
+}
+
+.right #rank.r-S {
+    color: #ffffff;
+}
+
+.right #rank.r-A {
+    color: #00ff00;
+}
+
+.right #rank.r-B {
+    color: #ffff00;
+}
+
+.right #rank.r-C {
+    color: #ff8800;
+}
+
+.right #percentage {
+    font-size: 32pt;
+    line-height: 30pt;
+    font-style: oblique 15deg;
+    text-align: right;
+}
